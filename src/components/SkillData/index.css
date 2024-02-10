@@ -1,0 +1,39 @@
+.skill-para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.skill-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  width: 15vw;
+}
+.skill-image {
+  height: 10vh;
+  width: 5vw;
+}
+
+@media (max-width: 577px) {
+  .skill-para {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 40px;
+  }
+  .skill-list-item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 70px;
+    width: 15vw;
+  }
+  .skill-image {
+    height: 10vh;
+    width: 14vw;
+  }
+}

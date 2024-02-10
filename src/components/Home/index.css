@@ -1,0 +1,119 @@
+.link-item {
+  text-decoration: none;
+}
+.home-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  padding: 50px;
+  width: 100vw;
+  padding-left: 80px;
+}
+.home-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 55px;
+  width: 40%;
+}
+.home-para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: normal;
+  width: 50%;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.home-button {
+  background-color: #4f46e5;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 17px;
+  border: 0 none;
+  padding: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 578px) and (max-width: 769px) {
+  .link-item {
+    text-decoration: none;
+  }
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-size: cover;
+    height: 90vh;
+    padding: 50px;
+    width: 100vw;
+    padding-left: 80px;
+  }
+
+  .home-heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 40px;
+    width: 60%;
+  }
+  .home-para {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: normal;
+    width: 60%;
+    line-height: 1.5;
+    font-size: 17px;
+  }
+  .home-button {
+    background-color: #4f46e5;
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    border: 0 none;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 577px) {
+  .link-item {
+    text-decoration: none;
+  }
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    height: 90vh;
+    padding: 50px;
+    width: 100vw;
+    padding-left: 30px;
+  }
+
+  .home-heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+    width: 95%;
+  }
+  .home-para {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: normal;
+    width: 60%;
+    line-height: 1.5;
+    font-size: 17px;
+  }
+  .home-button {
+    background-color: #4f46e5;
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    border: 0 none;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
